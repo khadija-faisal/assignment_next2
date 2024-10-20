@@ -61,6 +61,11 @@
   font-weight: 400;
   color: rgb(199, 193, 193);
 }
+@media (min-width: 1174px) {
+  .main{
+    height: 100%;
+  }
+}
 @media (max-width: 1174px) {
   .main {
     height: 100%;

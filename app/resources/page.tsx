@@ -11,7 +11,7 @@ export default function ResourcesPage() {
     <>
       <Header></Header>
       <h1 className={style.mainhead}>Resources</h1>
-      <main className={style.main}>
+      <section className={style.main}>
         <div className={style.containerone}>
           <div className={style.containertwo}>
             <div className={style.circle}>
@@ -52,11 +52,12 @@ export default function ResourcesPage() {
             </div>
             <h2 className={style.headone}>Changelog</h2>
             <h3 className={style.headtwo}>
-              Check out our latest features and fixes.
+              Chect out our latest features and fixes.
             </h3>
           </div>
         </div>
-      </main>
+     
+      </section>
       <Footer></Footer>
     </>
   );
